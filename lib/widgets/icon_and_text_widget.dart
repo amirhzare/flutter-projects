@@ -10,6 +10,6 @@ class IconAndText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(children: [Icon(iconData,color: color,), SizedBox(width: 2,), SmallText(text: text)],);
+    return Row(children: [Icon(iconData,color: color,),const SizedBox(width: 2,), SmallText(text: text)],);
   }
 }
